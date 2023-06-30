@@ -12,9 +12,9 @@ const app = express ();
 
 //setting cors
 app.use(
-    cors({
-        origin:'http://localhost:5173',
-    })
+    cors(
+        
+    )
 )
 
 //middleware
